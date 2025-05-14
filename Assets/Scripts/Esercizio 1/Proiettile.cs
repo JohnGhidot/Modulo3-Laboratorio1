@@ -6,10 +6,10 @@ public abstract class Proiettile
 {
     protected float _spd;
 
+    public abstract void Lancia();
+
     public Proiettile (float spd)
     {
-        _spd = spd;
+        this._spd = spd;
     }
-
-    public abstract void Lancia();
 }

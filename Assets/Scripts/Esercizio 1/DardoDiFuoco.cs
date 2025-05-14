@@ -8,6 +8,6 @@ public class DardoDiFuoco : Proiettile
 
     public override void Lancia()
     {
-        Debug.Log($"Dardo di Fuoco è stato lanciato alla velovità di {_spd}");
+        Debug.Log($"Dardo di Fuoco è stato lanciato alla velovità di {_spd} m/s" );
     }
-}
+} 

@@ -8,6 +8,6 @@ public class DardoMagico : Proiettile
 
     public override void Lancia()
     {
-        Debug.Log($"Dardo Magico è stato lanciato alla velocità di {_spd}");
+        Debug.Log($"Dardo Magico è stato lanciato alla velocità di {_spd} m/s");
     }
 }
